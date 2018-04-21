@@ -22,13 +22,13 @@ public class Email extends Document {
 	
 	public void updateAttribute(String attrName, String newName) {
 		switch (attrName) {
-		case "text": setText(newName); break;
-		case "sender": setSender(newName); break;
-		case "recipient": setRecipient(newName); break;
-		case "title": setTitle(newName); break;
-		default: 
-			System.out.println("The attribute doesn't exist.");
-			break;
+		    case "text": setText(newName); break;
+		    case "sender": setSender(newName); break;
+		    case "recipient": setRecipient(newName); break;
+		    case "title": setTitle(newName); break;
+		    default: 
+			    System.out.println("The attribute doesn't exist.");
+			    break;
 		}
 	}
 	
